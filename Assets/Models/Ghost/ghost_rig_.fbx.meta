@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 2f5032886ae23fd4280574c0fa6cf3e5
+timeCreated: 1478290100
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_l_jnt
+    100002: arm_r_jnt
+    100004: chainl
+    100006: chainr
+    100008: ghost_details:polySurface17
+    100010: ghost_details:polySurface17 1
+    100012: ghost_details:polySurface18
+    100014: ghost_details:polySurface18 1
+    100016: ghost_details:polySurface19
+    100018: ghost_details:polySurface19 1
+    100020: ghost_details:polySurface20
+    100022: ghost_details:polySurface20 1
+    100024: ghost_details:polySurface21
+    100026: ghost_details:polySurface21 1
+    100028: ghost_details:polySurface22
+    100030: ghost_details:polySurface22 1
+    100032: ghost_details:polySurface23
+    100034: ghost_details:polySurface23 1
+    100036: ghost_details:polySurface24
+    100038: ghost_details:polySurface24 1
+    100040: ghost_details:polySurface25
+    100042: ghost_details:polySurface25 1
+    100044: ghost_details:polySurface26
+    100046: ghost_details:polySurface26 1
+    100048: ghost_details:polySurface27
+    100050: ghost_details:polySurface27 1
+    100052: ghost_details:polySurface28
+    100054: ghost_details:polySurface28 1
+    100056: ghost_details:polySurface29
+    100058: ghost_details:polySurface29 1
+    100060: ghost_details:polySurface30
+    100062: ghost_details:polySurface30 1
+    100064: ghost_details:polySurface31
+    100066: ghost_details:polySurface31 1
+    100068: ghost_details:polySurface32
+    100070: ghost_details:polySurface32 1
+    100072: ghost_details:polySurface33
+    100074: ghost_details:polySurface33 1
+    100076: ghost_details:polySurface34
+    100078: ghost_details:polySurface34 1
+    100080: ghost_details:polySurface35
+    100082: ghost_details:polySurface35 1
+    100084: ghost_details:polySurface36
+    100086: ghost_details:polySurface36 1
+    100088: ghost_details:polySurface37
+    100090: ghost_details:polySurface37 1
+    100092: ghost_details:polySurface38
+    100094: ghost_details:polySurface38 1
+    100096: ghost_details:polySurface39
+    100098: ghost_details:polySurface39 1
+    100100: ghost_details:polySurface40
+    100102: ghost_details:polySurface40 1
+    100104: ghost_details:polySurface41
+    100106: ghost_details:polySurface41 1
+    100108: ghost_details:polySurface42
+    100110: ghost_details:polySurface42 1
+    100112: ghost_details:polySurface43
+    100114: ghost_details:polySurface43 1
+    100116: ghost_details:polySurface44
+    100118: ghost_details:polySurface44 1
+    100120: ghost_details:polySurface45
+    100122: ghost_details:polySurface45 1
+    100124: ghost_details:polySurface46
+    100126: ghost_details:polySurface46 1
+    100128: ghost_details:polySurface47
+    100130: ghost_details:polySurface47 1
+    100132: ghost_details:polySurface48
+    100134: ghost_details:polySurface48 1
+    100136: ghost_details:polySurface49
+    100138: ghost_details:polySurface49 1
+    100140: ghost_details:polySurface50
+    100142: ghost_details:polySurface50 1
+    100144: ghost_details:polySurface51
+    100146: ghost_details:polySurface51 1
+    100148: ghost_details:polySurface52
+    100150: ghost_details:polySurface52 1
+    100152: ghost_details:polySurface53
+    100154: ghost_details:polySurface53 1
+    100156: ghost_details:polySurface54
+    100158: ghost_details:polySurface54 1
+    100160: ghost_details:polySurface9
+    100162: ghost_details:transform15
+    100164: //RootNode
+    100166: hand_l_jnt_01
+    100168: hand_l_jnt_01 1
+    100170: hand_r_jnt_01
+    100172: joint1
+    100174: joint10
+    100176: joint10 1
+    100178: joint11
+    100180: joint11 1
+    100182: joint12
+    100184: joint12 1
+    100186: joint13
+    100188: joint13 1
+    100190: joint14
+    100192: joint17
+    100194: joint17 1
+    100196: joint18
+    100198: joint18 1
+    100200: joint19
+    100202: joint19 1
+    100204: joint2
+    100206: joint20
+    100208: joint20 1
+    100210: joint21
+    100212: joint21 1
+    100214: joint22
+    100216: joint22 1
+    100218: joint23
+    100220: joint23 1
+    100222: joint24
+    100224: joint24 1
+    100226: joint25
+    100228: joint25 1
+    100230: joint26
+    100232: joint26 1
+    100234: joint27
+    100236: joint27 1
+    100238: joint28
+    100240: joint28 1
+    100242: joint29
+    100244: joint29 1
+    100246: joint3
+    100248: joint30
+    100250: joint30 1
+    100252: joint31
+    100254: joint31 1
+    100256: joint4
+    100258: joint5
+    100260: joint6
+    100262: joint7
+    100264: joint8
+    100266: leg_l__jnt_01
+    100268: leg_r__jnt_01
+    100270: polySurface58
+    100272: polySurface59
+    100274: pSphere1
+    100276: pSphere2
+    100278: transform1
+    100280: transform2
+    100282: transform3
+    400000: arm_l_jnt
+    400002: arm_r_jnt
+    400004: chainl
+    400006: chainr
+    400008: ghost_details:polySurface17
+    400010: ghost_details:polySurface17 1
+    400012: ghost_details:polySurface18
+    400014: ghost_details:polySurface18 1
+    400016: ghost_details:polySurface19
+    400018: ghost_details:polySurface19 1
+    400020: ghost_details:polySurface20
+    400022: ghost_details:polySurface20 1
+    400024: ghost_details:polySurface21
+    400026: ghost_details:polySurface21 1
+    400028: ghost_details:polySurface22
+    400030: ghost_details:polySurface22 1
+    400032: ghost_details:polySurface23
+    400034: ghost_details:polySurface23 1
+    400036: ghost_details:polySurface24
+    400038: ghost_details:polySurface24 1
+    400040: ghost_details:polySurface25
+    400042: ghost_details:polySurface25 1
+    400044: ghost_details:polySurface26
+    400046: ghost_details:polySurface26 1
+    400048: ghost_details:polySurface27
+    400050: ghost_details:polySurface27 1
+    400052: ghost_details:polySurface28
+    400054: ghost_details:polySurface28 1
+    400056: ghost_details:polySurface29
+    400058: ghost_details:polySurface29 1
+    400060: ghost_details:polySurface30
+    400062: ghost_details:polySurface30 1
+    400064: ghost_details:polySurface31
+    400066: ghost_details:polySurface31 1
+    400068: ghost_details:polySurface32
+    400070: ghost_details:polySurface32 1
+    400072: ghost_details:polySurface33
+    400074: ghost_details:polySurface33 1
+    400076: ghost_details:polySurface34
+    400078: ghost_details:polySurface34 1
+    400080: ghost_details:polySurface35
+    400082: ghost_details:polySurface35 1
+    400084: ghost_details:polySurface36
+    400086: ghost_details:polySurface36 1
+    400088: ghost_details:polySurface37
+    400090: ghost_details:polySurface37 1
+    400092: ghost_details:polySurface38
+    400094: ghost_details:polySurface38 1
+    400096: ghost_details:polySurface39
+    400098: ghost_details:polySurface39 1
+    400100: ghost_details:polySurface40
+    400102: ghost_details:polySurface40 1
+    400104: ghost_details:polySurface41
+    400106: ghost_details:polySurface41 1
+    400108: ghost_details:polySurface42
+    400110: ghost_details:polySurface42 1
+    400112: ghost_details:polySurface43
+    400114: ghost_details:polySurface43 1
+    400116: ghost_details:polySurface44
+    400118: ghost_details:polySurface44 1
+    400120: ghost_details:polySurface45
+    400122: ghost_details:polySurface45 1
+    400124: ghost_details:polySurface46
+    400126: ghost_details:polySurface46 1
+    400128: ghost_details:polySurface47
+    400130: ghost_details:polySurface47 1
+    400132: ghost_details:polySurface48
+    400134: ghost_details:polySurface48 1
+    400136: ghost_details:polySurface49
+    400138: ghost_details:polySurface49 1
+    400140: ghost_details:polySurface50
+    400142: ghost_details:polySurface50 1
+    400144: ghost_details:polySurface51
+    400146: ghost_details:polySurface51 1
+    400148: ghost_details:polySurface52
+    400150: ghost_details:polySurface52 1
+    400152: ghost_details:polySurface53
+    400154: ghost_details:polySurface53 1
+    400156: ghost_details:polySurface54
+    400158: ghost_details:polySurface54 1
+    400160: ghost_details:polySurface9
+    400162: ghost_details:transform15
+    400164: //RootNode
+    400166: hand_l_jnt_01
+    400168: hand_l_jnt_01 1
+    400170: hand_r_jnt_01
+    400172: joint1
+    400174: joint10
+    400176: joint10 1
+    400178: joint11
+    400180: joint11 1
+    400182: joint12
+    400184: joint12 1
+    400186: joint13
+    400188: joint13 1
+    400190: joint14
+    400192: joint17
+    400194: joint17 1
+    400196: joint18
+    400198: joint18 1
+    400200: joint19
+    400202: joint19 1
+    400204: joint2
+    400206: joint20
+    400208: joint20 1
+    400210: joint21
+    400212: joint21 1
+    400214: joint22
+    400216: joint22 1
+    400218: joint23
+    400220: joint23 1
+    400222: joint24
+    400224: joint24 1
+    400226: joint25
+    400228: joint25 1
+    400230: joint26
+    400232: joint26 1
+    400234: joint27
+    400236: joint27 1
+    400238: joint28
+    400240: joint28 1
+    400242: joint29
+    400244: joint29 1
+    400246: joint3
+    400248: joint30
+    400250: joint30 1
+    400252: joint31
+    400254: joint31 1
+    400256: joint4
+    400258: joint5
+    400260: joint6
+    400262: joint7
+    400264: joint8
+    400266: leg_l__jnt_01
+    400268: leg_r__jnt_01
+    400270: polySurface58
+    400272: polySurface59
+    400274: pSphere1
+    400276: pSphere2
+    400278: transform1
+    400280: transform2
+    400282: transform3
+    2300000: ghost_details:polySurface17
+    2300002: ghost_details:polySurface17 1
+    2300004: ghost_details:polySurface18
+    2300006: ghost_details:polySurface18 1
+    2300008: ghost_details:polySurface19
+    2300010: ghost_details:polySurface19 1
+    2300012: ghost_details:polySurface20
+    2300014: ghost_details:polySurface20 1
+    2300016: ghost_details:polySurface21
+    2300018: ghost_details:polySurface21 1
+    2300020: ghost_details:polySurface22
+    2300022: ghost_details:polySurface22 1
+    2300024: ghost_details:polySurface23
+    2300026: ghost_details:polySurface23 1
+    2300028: ghost_details:polySurface24
+    2300030: ghost_details:polySurface24 1
+    2300032: ghost_details:polySurface25
+    2300034: ghost_details:polySurface25 1
+    2300036: ghost_details:polySurface26
+    2300038: ghost_details:polySurface26 1
+    2300040: ghost_details:polySurface27
+    2300042: ghost_details:polySurface27 1
+    2300044: ghost_details:polySurface28
+    2300046: ghost_details:polySurface28 1
+    2300048: ghost_details:polySurface29
+    2300050: ghost_details:polySurface29 1
+    2300052: ghost_details:polySurface30
+    2300054: ghost_details:polySurface30 1
+    2300056: ghost_details:polySurface31
+    2300058: ghost_details:polySurface31 1
+    2300060: ghost_details:polySurface32
+    2300062: ghost_details:polySurface32 1
+    2300064: ghost_details:polySurface33
+    2300066: ghost_details:polySurface33 1
+    2300068: ghost_details:polySurface34
+    2300070: ghost_details:polySurface34 1
+    2300072: ghost_details:polySurface35
+    2300074: ghost_details:polySurface35 1
+    2300076: ghost_details:polySurface36
+    2300078: ghost_details:polySurface36 1
+    2300080: ghost_details:polySurface37
+    2300082: ghost_details:polySurface37 1
+    2300084: ghost_details:polySurface38
+    2300086: ghost_details:polySurface38 1
+    2300088: ghost_details:polySurface39
+    2300090: ghost_details:polySurface39 1
+    2300092: ghost_details:polySurface40
+    2300094: ghost_details:polySurface40 1
+    2300096: ghost_details:polySurface41
+    2300098: ghost_details:polySurface41 1
+    2300100: ghost_details:polySurface42
+    2300102: ghost_details:polySurface42 1
+    2300104: ghost_details:polySurface43
+    2300106: ghost_details:polySurface43 1
+    2300108: ghost_details:polySurface44
+    2300110: ghost_details:polySurface44 1
+    2300112: ghost_details:polySurface45
+    2300114: ghost_details:polySurface45 1
+    2300116: ghost_details:polySurface46
+    2300118: ghost_details:polySurface46 1
+    2300120: ghost_details:polySurface47
+    2300122: ghost_details:polySurface47 1
+    2300124: ghost_details:polySurface48
+    2300126: ghost_details:polySurface48 1
+    2300128: ghost_details:polySurface49
+    2300130: ghost_details:polySurface49 1
+    2300132: ghost_details:polySurface50
+    2300134: ghost_details:polySurface50 1
+    2300136: ghost_details:polySurface51
+    2300138: ghost_details:polySurface51 1
+    2300140: ghost_details:polySurface52
+    2300142: ghost_details:polySurface52 1
+    2300144: ghost_details:polySurface53
+    2300146: ghost_details:polySurface53 1
+    2300148: ghost_details:polySurface54
+    2300150: ghost_details:polySurface54 1
+    2300152: ghost_details:polySurface9
+    3300000: ghost_details:polySurface17
+    3300002: ghost_details:polySurface17 1
+    3300004: ghost_details:polySurface18
+    3300006: ghost_details:polySurface18 1
+    3300008: ghost_details:polySurface19
+    3300010: ghost_details:polySurface19 1
+    3300012: ghost_details:polySurface20
+    3300014: ghost_details:polySurface20 1
+    3300016: ghost_details:polySurface21
+    3300018: ghost_details:polySurface21 1
+    3300020: ghost_details:polySurface22
+    3300022: ghost_details:polySurface22 1
+    3300024: ghost_details:polySurface23
+    3300026: ghost_details:polySurface23 1
+    3300028: ghost_details:polySurface24
+    3300030: ghost_details:polySurface24 1
+    3300032: ghost_details:polySurface25
+    3300034: ghost_details:polySurface25 1
+    3300036: ghost_details:polySurface26
+    3300038: ghost_details:polySurface26 1
+    3300040: ghost_details:polySurface27
+    3300042: ghost_details:polySurface27 1
+    3300044: ghost_details:polySurface28
+    3300046: ghost_details:polySurface28 1
+    3300048: ghost_details:polySurface29
+    3300050: ghost_details:polySurface29 1
+    3300052: ghost_details:polySurface30
+    3300054: ghost_details:polySurface30 1
+    3300056: ghost_details:polySurface31
+    3300058: ghost_details:polySurface31 1
+    3300060: ghost_details:polySurface32
+    3300062: ghost_details:polySurface32 1
+    3300064: ghost_details:polySurface33
+    3300066: ghost_details:polySurface33 1
+    3300068: ghost_details:polySurface34
+    3300070: ghost_details:polySurface34 1
+    3300072: ghost_details:polySurface35
+    3300074: ghost_details:polySurface35 1
+    3300076: ghost_details:polySurface36
+    3300078: ghost_details:polySurface36 1
+    3300080: ghost_details:polySurface37
+    3300082: ghost_details:polySurface37 1
+    3300084: ghost_details:polySurface38
+    3300086: ghost_details:polySurface38 1
+    3300088: ghost_details:polySurface39
+    3300090: ghost_details:polySurface39 1
+    3300092: ghost_details:polySurface40
+    3300094: ghost_details:polySurface40 1
+    3300096: ghost_details:polySurface41
+    3300098: ghost_details:polySurface41 1
+    3300100: ghost_details:polySurface42
+    3300102: ghost_details:polySurface42 1
+    3300104: ghost_details:polySurface43
+    3300106: ghost_details:polySurface43 1
+    3300108: ghost_details:polySurface44
+    3300110: ghost_details:polySurface44 1
+    3300112: ghost_details:polySurface45
+    3300114: ghost_details:polySurface45 1
+    3300116: ghost_details:polySurface46
+    3300118: ghost_details:polySurface46 1
+    3300120: ghost_details:polySurface47
+    3300122: ghost_details:polySurface47 1
+    3300124: ghost_details:polySurface48
+    3300126: ghost_details:polySurface48 1
+    3300128: ghost_details:polySurface49
+    3300130: ghost_details:polySurface49 1
+    3300132: ghost_details:polySurface50
+    3300134: ghost_details:polySurface50 1
+    3300136: ghost_details:polySurface51
+    3300138: ghost_details:polySurface51 1
+    3300140: ghost_details:polySurface52
+    3300142: ghost_details:polySurface52 1
+    3300144: ghost_details:polySurface53
+    3300146: ghost_details:polySurface53 1
+    3300148: ghost_details:polySurface54
+    3300150: ghost_details:polySurface54 1
+    3300152: ghost_details:polySurface9
+    4300000: ghost_details:polySurface17
+    4300002: ghost_details:polySurface18
+    4300004: ghost_details:polySurface19
+    4300006: ghost_details:polySurface20
+    4300008: ghost_details:polySurface21
+    4300010: ghost_details:polySurface22
+    4300012: ghost_details:polySurface23
+    4300014: ghost_details:polySurface24
+    4300016: ghost_details:polySurface25
+    4300018: ghost_details:polySurface26
+    4300020: ghost_details:polySurface27
+    4300022: ghost_details:polySurface28
+    4300024: ghost_details:polySurface29
+    4300026: ghost_details:polySurface30
+    4300028: ghost_details:polySurface31
+    4300030: ghost_details:polySurface32
+    4300032: ghost_details:polySurface33
+    4300034: ghost_details:polySurface34
+    4300036: ghost_details:polySurface35
+    4300038: ghost_details:polySurface36
+    4300040: ghost_details:polySurface37
+    4300042: ghost_details:polySurface38
+    4300044: ghost_details:polySurface39
+    4300046: ghost_details:polySurface40
+    4300048: ghost_details:polySurface41
+    4300050: ghost_details:polySurface42
+    4300052: ghost_details:polySurface43
+    4300054: ghost_details:polySurface44
+    4300056: ghost_details:polySurface45
+    4300058: ghost_details:polySurface46
+    4300060: ghost_details:polySurface47
+    4300062: ghost_details:polySurface48
+    4300064: ghost_details:polySurface49
+    4300066: ghost_details:polySurface50
+    4300068: ghost_details:polySurface51
+    4300070: ghost_details:polySurface52
+    4300072: ghost_details:polySurface53
+    4300074: ghost_details:polySurface54
+    4300076: ghost_details:polySurface17
+    4300078: ghost_details:polySurface18
+    4300080: ghost_details:polySurface19
+    4300082: ghost_details:polySurface20
+    4300084: ghost_details:polySurface21
+    4300086: ghost_details:polySurface22
+    4300088: ghost_details:polySurface23
+    4300090: ghost_details:polySurface24
+    4300092: ghost_details:polySurface25
+    4300094: ghost_details:polySurface26
+    4300096: ghost_details:polySurface27
+    4300098: ghost_details:polySurface28
+    4300100: ghost_details:polySurface29
+    4300102: ghost_details:polySurface30
+    4300104: ghost_details:polySurface31
+    4300106: ghost_details:polySurface32
+    4300108: ghost_details:polySurface33
+    4300110: ghost_details:polySurface34
+    4300112: ghost_details:polySurface35
+    4300114: ghost_details:polySurface36
+    4300116: ghost_details:polySurface37
+    4300118: ghost_details:polySurface38
+    4300120: ghost_details:polySurface39
+    4300122: ghost_details:polySurface40
+    4300124: ghost_details:polySurface41
+    4300126: ghost_details:polySurface42
+    4300128: ghost_details:polySurface43
+    4300130: ghost_details:polySurface44
+    4300132: ghost_details:polySurface45
+    4300134: ghost_details:polySurface46
+    4300136: ghost_details:polySurface47
+    4300138: ghost_details:polySurface48
+    4300140: ghost_details:polySurface49
+    4300142: ghost_details:polySurface50
+    4300144: ghost_details:polySurface51
+    4300146: ghost_details:polySurface52
+    4300148: ghost_details:polySurface53
+    4300150: ghost_details:polySurface54
+    4300152: ghost_details:polySurface9
+    4300154: polySurface59
+    9500000: //RootNode
+    13700000: polySurface59
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
