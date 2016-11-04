@@ -47,7 +47,7 @@ public class LanternColor : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Ghost")
+        if (other.gameObject.tag == "Ghost" && !other.isTrigger)
         {
             ghostCount++;
 
@@ -63,7 +63,7 @@ public class LanternColor : MonoBehaviour {
 
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Ghost")
+        if (other.gameObject.tag == "Ghost" && !other.isTrigger)
         {
             float maxDist = sphere.radius;
             float dist = (other.transform.position - transform.position).magnitude;
@@ -77,7 +77,7 @@ public class LanternColor : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Ghost")
+        if (other.gameObject.tag == "Ghost" && !other.isTrigger)
         {
             ghostCount--;
             if (ghostCount <= 0)
