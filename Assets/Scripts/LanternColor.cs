@@ -79,12 +79,18 @@ public class LanternColor : MonoBehaviour {
     {
         if (other.gameObject.tag == "Ghost" && !other.isTrigger)
         {
-            ghostCount--;
-            if (ghostCount <= 0)
-            {
-                material.SetColor("_EmissionColor", normalColor);
-                light.color = normalColor;
-            }
+            removeGhost();
         }
     }
+
+    public void removeGhost()
+    {
+        ghostCount--;
+        if (ghostCount <= 0)
+        {
+            material.SetColor("_EmissionColor", normalColor);
+            light.color = normalColor;
+        }
+    }
+
 }

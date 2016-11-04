@@ -15,8 +15,7 @@ public class Ghost : MonoBehaviour {
     void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player" && !other.isTrigger)
-        {
-            Debug.Log("ghost moving");
+        {   
             transform.Translate(Time.deltaTime * speed * (other.transform.position - transform.position).normalized);
         }
     }

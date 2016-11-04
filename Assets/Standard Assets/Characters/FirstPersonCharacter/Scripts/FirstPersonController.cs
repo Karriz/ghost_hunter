@@ -110,18 +110,16 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (m_Input.magnitude != 0f && m_IsRunning && m_playingAnim != "run" && !m_Jumping)
             {
                 m_handAnimation.Play("runAnimation");
-                Debug.Log("play run animation");
                 m_playingAnim= "run";
             }
             else if (m_Input.magnitude != 0f && !m_IsRunning && m_playingAnim != "walk" && !m_Jumping)
             {
                 m_handAnimation.Play("walkAnimation");
-                Debug.Log("play walk animation");
+
                 m_playingAnim = "walk";
             }
             else if (!m_Jumping && m_Input.magnitude == 0f && m_playingAnim != "idle")
             {
-                Debug.Log("play idle animation");
                 m_handAnimation.Play("idleAnimation");
                 m_playingAnim = "idle";
             }
@@ -148,7 +146,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     m_MoveDir.y = m_JumpSpeed;
                     m_handAnimation.Play("jumpAnimation");
-                    Debug.Log("play jump animation");
                     PlayJumpSound();
                     m_Jump = false;
                     m_Jumping = true;
