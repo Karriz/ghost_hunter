@@ -1,0 +1,1806 @@
+fileFormatVersion: 2
+guid: 836ff985502268b4988d2b852323718a
+timeCreated: 1478359386
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_l_jnt
+    100002: arm_r_jnt
+    100004: //RootNode
+    100006: chainl
+    100008: chainr
+    100010: ghost_details2:polySurface17
+    100012: ghost_details2:polySurface17 1
+    100014: ghost_details2:polySurface18
+    100016: ghost_details2:polySurface18 1
+    100018: ghost_details2:polySurface19
+    100020: ghost_details2:polySurface19 1
+    100022: ghost_details2:polySurface20
+    100024: ghost_details2:polySurface20 1
+    100026: ghost_details2:polySurface21
+    100028: ghost_details2:polySurface21 1
+    100030: ghost_details2:polySurface22
+    100032: ghost_details2:polySurface22 1
+    100034: ghost_details2:polySurface23
+    100036: ghost_details2:polySurface23 1
+    100038: ghost_details2:polySurface24
+    100040: ghost_details2:polySurface24 1
+    100042: ghost_details2:polySurface25
+    100044: ghost_details2:polySurface25 1
+    100046: ghost_details2:polySurface26
+    100048: ghost_details2:polySurface26 1
+    100050: ghost_details2:polySurface27
+    100052: ghost_details2:polySurface27 1
+    100054: ghost_details2:polySurface28
+    100056: ghost_details2:polySurface28 1
+    100058: ghost_details2:polySurface29
+    100060: ghost_details2:polySurface29 1
+    100062: ghost_details2:polySurface30
+    100064: ghost_details2:polySurface30 1
+    100066: ghost_details2:polySurface31
+    100068: ghost_details2:polySurface31 1
+    100070: ghost_details2:polySurface32
+    100072: ghost_details2:polySurface32 1
+    100074: ghost_details2:polySurface33
+    100076: ghost_details2:polySurface33 1
+    100078: ghost_details2:polySurface34
+    100080: ghost_details2:polySurface34 1
+    100082: ghost_details2:polySurface35
+    100084: ghost_details2:polySurface35 1
+    100086: ghost_details2:polySurface36
+    100088: ghost_details2:polySurface36 1
+    100090: ghost_details2:polySurface37
+    100092: ghost_details2:polySurface37 1
+    100094: ghost_details2:polySurface38
+    100096: ghost_details2:polySurface38 1
+    100098: ghost_details2:polySurface39
+    100100: ghost_details2:polySurface39 1
+    100102: ghost_details2:polySurface40
+    100104: ghost_details2:polySurface40 1
+    100106: ghost_details2:polySurface41
+    100108: ghost_details2:polySurface41 1
+    100110: ghost_details2:polySurface42
+    100112: ghost_details2:polySurface42 1
+    100114: ghost_details2:polySurface43
+    100116: ghost_details2:polySurface43 1
+    100118: ghost_details2:polySurface44
+    100120: ghost_details2:polySurface44 1
+    100122: ghost_details2:polySurface45
+    100124: ghost_details2:polySurface45 1
+    100126: ghost_details2:polySurface46
+    100128: ghost_details2:polySurface46 1
+    100130: ghost_details2:polySurface47
+    100132: ghost_details2:polySurface47 1
+    100134: ghost_details2:polySurface48
+    100136: ghost_details2:polySurface48 1
+    100138: ghost_details2:polySurface49
+    100140: ghost_details2:polySurface49 1
+    100142: ghost_details2:polySurface50
+    100144: ghost_details2:polySurface50 1
+    100146: ghost_details2:polySurface51
+    100148: ghost_details2:polySurface51 1
+    100150: ghost_details2:polySurface52
+    100152: ghost_details2:polySurface52 1
+    100154: ghost_details2:polySurface53
+    100156: ghost_details2:polySurface53 1
+    100158: ghost_details2:polySurface54
+    100160: ghost_details2:polySurface54 1
+    100162: ghost_details2:polySurface9
+    100164: ghost_details2:transform15
+    100166: ghost_details:polySurface17
+    100168: ghost_details:polySurface17 1
+    100170: ghost_details:polySurface18
+    100172: ghost_details:polySurface18 1
+    100174: ghost_details:polySurface19
+    100176: ghost_details:polySurface19 1
+    100178: ghost_details:polySurface20
+    100180: ghost_details:polySurface20 1
+    100182: ghost_details:polySurface21
+    100184: ghost_details:polySurface21 1
+    100186: ghost_details:polySurface22
+    100188: ghost_details:polySurface22 1
+    100190: ghost_details:polySurface23
+    100192: ghost_details:polySurface23 1
+    100194: ghost_details:polySurface24
+    100196: ghost_details:polySurface24 1
+    100198: ghost_details:polySurface25
+    100200: ghost_details:polySurface25 1
+    100202: ghost_details:polySurface26
+    100204: ghost_details:polySurface26 1
+    100206: ghost_details:polySurface27
+    100208: ghost_details:polySurface27 1
+    100210: ghost_details:polySurface28
+    100212: ghost_details:polySurface28 1
+    100214: ghost_details:polySurface29
+    100216: ghost_details:polySurface29 1
+    100218: ghost_details:polySurface30
+    100220: ghost_details:polySurface30 1
+    100222: ghost_details:polySurface31
+    100224: ghost_details:polySurface31 1
+    100226: ghost_details:polySurface32
+    100228: ghost_details:polySurface32 1
+    100230: ghost_details:polySurface33
+    100232: ghost_details:polySurface33 1
+    100234: ghost_details:polySurface34
+    100236: ghost_details:polySurface34 1
+    100238: ghost_details:polySurface35
+    100240: ghost_details:polySurface35 1
+    100242: ghost_details:polySurface36
+    100244: ghost_details:polySurface36 1
+    100246: ghost_details:polySurface37
+    100248: ghost_details:polySurface37 1
+    100250: ghost_details:polySurface38
+    100252: ghost_details:polySurface38 1
+    100254: ghost_details:polySurface39
+    100256: ghost_details:polySurface39 1
+    100258: ghost_details:polySurface40
+    100260: ghost_details:polySurface40 1
+    100262: ghost_details:polySurface41
+    100264: ghost_details:polySurface41 1
+    100266: ghost_details:polySurface42
+    100268: ghost_details:polySurface42 1
+    100270: ghost_details:polySurface43
+    100272: ghost_details:polySurface43 1
+    100274: ghost_details:polySurface44
+    100276: ghost_details:polySurface44 1
+    100278: ghost_details:polySurface45
+    100280: ghost_details:polySurface45 1
+    100282: ghost_details:polySurface46
+    100284: ghost_details:polySurface46 1
+    100286: ghost_details:polySurface47
+    100288: ghost_details:polySurface47 1
+    100290: ghost_details:polySurface48
+    100292: ghost_details:polySurface48 1
+    100294: ghost_details:polySurface49
+    100296: ghost_details:polySurface49 1
+    100298: ghost_details:polySurface50
+    100300: ghost_details:polySurface50 1
+    100302: ghost_details:polySurface51
+    100304: ghost_details:polySurface51 1
+    100306: ghost_details:polySurface52
+    100308: ghost_details:polySurface52 1
+    100310: ghost_details:polySurface53
+    100312: ghost_details:polySurface53 1
+    100314: ghost_details:polySurface54
+    100316: ghost_details:polySurface54 1
+    100318: ghost_details:polySurface9
+    100320: ghost_details:transform15
+    100322: group
+    100324: group1
+    100326: hand_l_jnt_01
+    100328: hand_l_jnt_01 1
+    100330: hand_r_jnt_01
+    100332: joint1
+    100334: joint10
+    100336: joint10 1
+    100338: joint11
+    100340: joint11 1
+    100342: joint12
+    100344: joint12 1
+    100346: joint13
+    100348: joint13 1
+    100350: joint14
+    100352: joint17
+    100354: joint17 1
+    100356: joint18
+    100358: joint18 1
+    100360: joint19
+    100362: joint19 1
+    100364: joint2
+    100366: joint20
+    100368: joint20 1
+    100370: joint21
+    100372: joint21 1
+    100374: joint22
+    100376: joint22 1
+    100378: joint23
+    100380: joint23 1
+    100382: joint24
+    100384: joint24 1
+    100386: joint25
+    100388: joint25 1
+    100390: joint26
+    100392: joint26 1
+    100394: joint27
+    100396: joint27 1
+    100398: joint28
+    100400: joint28 1
+    100402: joint29
+    100404: joint29 1
+    100406: joint3
+    100408: joint30
+    100410: joint30 1
+    100412: joint31
+    100414: joint31 1
+    100416: joint4
+    100418: joint5
+    100420: joint6
+    100422: joint7
+    100424: joint8
+    100426: leg_l__jnt_01
+    100428: leg_r__jnt_01
+    100430: pasted__arm_l_jnt
+    100432: pasted__arm_r_jnt
+    100434: pasted__chainl
+    100436: pasted__chainr
+    100438: pasted__hand_l_jnt_01
+    100440: pasted__hand_l_jnt_01 1
+    100442: pasted__hand_r_jnt_01
+    100444: pasted__joint1
+    100446: pasted__joint10
+    100448: pasted__joint10 1
+    100450: pasted__joint11
+    100452: pasted__joint11 1
+    100454: pasted__joint12
+    100456: pasted__joint12 1
+    100458: pasted__joint13
+    100460: pasted__joint13 1
+    100462: pasted__joint14
+    100464: pasted__joint17
+    100466: pasted__joint17 1
+    100468: pasted__joint18
+    100470: pasted__joint18 1
+    100472: pasted__joint19
+    100474: pasted__joint19 1
+    100476: pasted__joint2
+    100478: pasted__joint20
+    100480: pasted__joint20 1
+    100482: pasted__joint21
+    100484: pasted__joint21 1
+    100486: pasted__joint22
+    100488: pasted__joint22 1
+    100490: pasted__joint23
+    100492: pasted__joint23 1
+    100494: pasted__joint24
+    100496: pasted__joint24 1
+    100498: pasted__joint25
+    100500: pasted__joint25 1
+    100502: pasted__joint26
+    100504: pasted__joint26 1
+    100506: pasted__joint27
+    100508: pasted__joint27 1
+    100510: pasted__joint28
+    100512: pasted__joint28 1
+    100514: pasted__joint29
+    100516: pasted__joint29 1
+    100518: pasted__joint3
+    100520: pasted__joint30
+    100522: pasted__joint30 1
+    100524: pasted__joint31
+    100526: pasted__joint31 1
+    100528: pasted__joint4
+    100530: pasted__joint5
+    100532: pasted__joint6
+    100534: pasted__joint7
+    100536: pasted__joint8
+    100538: pasted__leg_l__jnt_01
+    100540: pasted__leg_r__jnt_01
+    100542: polySurface58
+    100544: polySurface59
+    100546: pSphere1
+    100548: pSphere2
+    100550: transform1
+    100552: transform2
+    100554: transform3
+    400000: arm_l_jnt
+    400002: arm_r_jnt
+    400004: //RootNode
+    400006: chainl
+    400008: chainr
+    400010: ghost_details2:polySurface17
+    400012: ghost_details2:polySurface17 1
+    400014: ghost_details2:polySurface18
+    400016: ghost_details2:polySurface18 1
+    400018: ghost_details2:polySurface19
+    400020: ghost_details2:polySurface19 1
+    400022: ghost_details2:polySurface20
+    400024: ghost_details2:polySurface20 1
+    400026: ghost_details2:polySurface21
+    400028: ghost_details2:polySurface21 1
+    400030: ghost_details2:polySurface22
+    400032: ghost_details2:polySurface22 1
+    400034: ghost_details2:polySurface23
+    400036: ghost_details2:polySurface23 1
+    400038: ghost_details2:polySurface24
+    400040: ghost_details2:polySurface24 1
+    400042: ghost_details2:polySurface25
+    400044: ghost_details2:polySurface25 1
+    400046: ghost_details2:polySurface26
+    400048: ghost_details2:polySurface26 1
+    400050: ghost_details2:polySurface27
+    400052: ghost_details2:polySurface27 1
+    400054: ghost_details2:polySurface28
+    400056: ghost_details2:polySurface28 1
+    400058: ghost_details2:polySurface29
+    400060: ghost_details2:polySurface29 1
+    400062: ghost_details2:polySurface30
+    400064: ghost_details2:polySurface30 1
+    400066: ghost_details2:polySurface31
+    400068: ghost_details2:polySurface31 1
+    400070: ghost_details2:polySurface32
+    400072: ghost_details2:polySurface32 1
+    400074: ghost_details2:polySurface33
+    400076: ghost_details2:polySurface33 1
+    400078: ghost_details2:polySurface34
+    400080: ghost_details2:polySurface34 1
+    400082: ghost_details2:polySurface35
+    400084: ghost_details2:polySurface35 1
+    400086: ghost_details2:polySurface36
+    400088: ghost_details2:polySurface36 1
+    400090: ghost_details2:polySurface37
+    400092: ghost_details2:polySurface37 1
+    400094: ghost_details2:polySurface38
+    400096: ghost_details2:polySurface38 1
+    400098: ghost_details2:polySurface39
+    400100: ghost_details2:polySurface39 1
+    400102: ghost_details2:polySurface40
+    400104: ghost_details2:polySurface40 1
+    400106: ghost_details2:polySurface41
+    400108: ghost_details2:polySurface41 1
+    400110: ghost_details2:polySurface42
+    400112: ghost_details2:polySurface42 1
+    400114: ghost_details2:polySurface43
+    400116: ghost_details2:polySurface43 1
+    400118: ghost_details2:polySurface44
+    400120: ghost_details2:polySurface44 1
+    400122: ghost_details2:polySurface45
+    400124: ghost_details2:polySurface45 1
+    400126: ghost_details2:polySurface46
+    400128: ghost_details2:polySurface46 1
+    400130: ghost_details2:polySurface47
+    400132: ghost_details2:polySurface47 1
+    400134: ghost_details2:polySurface48
+    400136: ghost_details2:polySurface48 1
+    400138: ghost_details2:polySurface49
+    400140: ghost_details2:polySurface49 1
+    400142: ghost_details2:polySurface50
+    400144: ghost_details2:polySurface50 1
+    400146: ghost_details2:polySurface51
+    400148: ghost_details2:polySurface51 1
+    400150: ghost_details2:polySurface52
+    400152: ghost_details2:polySurface52 1
+    400154: ghost_details2:polySurface53
+    400156: ghost_details2:polySurface53 1
+    400158: ghost_details2:polySurface54
+    400160: ghost_details2:polySurface54 1
+    400162: ghost_details2:polySurface9
+    400164: ghost_details2:transform15
+    400166: ghost_details:polySurface17
+    400168: ghost_details:polySurface17 1
+    400170: ghost_details:polySurface18
+    400172: ghost_details:polySurface18 1
+    400174: ghost_details:polySurface19
+    400176: ghost_details:polySurface19 1
+    400178: ghost_details:polySurface20
+    400180: ghost_details:polySurface20 1
+    400182: ghost_details:polySurface21
+    400184: ghost_details:polySurface21 1
+    400186: ghost_details:polySurface22
+    400188: ghost_details:polySurface22 1
+    400190: ghost_details:polySurface23
+    400192: ghost_details:polySurface23 1
+    400194: ghost_details:polySurface24
+    400196: ghost_details:polySurface24 1
+    400198: ghost_details:polySurface25
+    400200: ghost_details:polySurface25 1
+    400202: ghost_details:polySurface26
+    400204: ghost_details:polySurface26 1
+    400206: ghost_details:polySurface27
+    400208: ghost_details:polySurface27 1
+    400210: ghost_details:polySurface28
+    400212: ghost_details:polySurface28 1
+    400214: ghost_details:polySurface29
+    400216: ghost_details:polySurface29 1
+    400218: ghost_details:polySurface30
+    400220: ghost_details:polySurface30 1
+    400222: ghost_details:polySurface31
+    400224: ghost_details:polySurface31 1
+    400226: ghost_details:polySurface32
+    400228: ghost_details:polySurface32 1
+    400230: ghost_details:polySurface33
+    400232: ghost_details:polySurface33 1
+    400234: ghost_details:polySurface34
+    400236: ghost_details:polySurface34 1
+    400238: ghost_details:polySurface35
+    400240: ghost_details:polySurface35 1
+    400242: ghost_details:polySurface36
+    400244: ghost_details:polySurface36 1
+    400246: ghost_details:polySurface37
+    400248: ghost_details:polySurface37 1
+    400250: ghost_details:polySurface38
+    400252: ghost_details:polySurface38 1
+    400254: ghost_details:polySurface39
+    400256: ghost_details:polySurface39 1
+    400258: ghost_details:polySurface40
+    400260: ghost_details:polySurface40 1
+    400262: ghost_details:polySurface41
+    400264: ghost_details:polySurface41 1
+    400266: ghost_details:polySurface42
+    400268: ghost_details:polySurface42 1
+    400270: ghost_details:polySurface43
+    400272: ghost_details:polySurface43 1
+    400274: ghost_details:polySurface44
+    400276: ghost_details:polySurface44 1
+    400278: ghost_details:polySurface45
+    400280: ghost_details:polySurface45 1
+    400282: ghost_details:polySurface46
+    400284: ghost_details:polySurface46 1
+    400286: ghost_details:polySurface47
+    400288: ghost_details:polySurface47 1
+    400290: ghost_details:polySurface48
+    400292: ghost_details:polySurface48 1
+    400294: ghost_details:polySurface49
+    400296: ghost_details:polySurface49 1
+    400298: ghost_details:polySurface50
+    400300: ghost_details:polySurface50 1
+    400302: ghost_details:polySurface51
+    400304: ghost_details:polySurface51 1
+    400306: ghost_details:polySurface52
+    400308: ghost_details:polySurface52 1
+    400310: ghost_details:polySurface53
+    400312: ghost_details:polySurface53 1
+    400314: ghost_details:polySurface54
+    400316: ghost_details:polySurface54 1
+    400318: ghost_details:polySurface9
+    400320: ghost_details:transform15
+    400322: group
+    400324: group1
+    400326: hand_l_jnt_01
+    400328: hand_l_jnt_01 1
+    400330: hand_r_jnt_01
+    400332: joint1
+    400334: joint10
+    400336: joint10 1
+    400338: joint11
+    400340: joint11 1
+    400342: joint12
+    400344: joint12 1
+    400346: joint13
+    400348: joint13 1
+    400350: joint14
+    400352: joint17
+    400354: joint17 1
+    400356: joint18
+    400358: joint18 1
+    400360: joint19
+    400362: joint19 1
+    400364: joint2
+    400366: joint20
+    400368: joint20 1
+    400370: joint21
+    400372: joint21 1
+    400374: joint22
+    400376: joint22 1
+    400378: joint23
+    400380: joint23 1
+    400382: joint24
+    400384: joint24 1
+    400386: joint25
+    400388: joint25 1
+    400390: joint26
+    400392: joint26 1
+    400394: joint27
+    400396: joint27 1
+    400398: joint28
+    400400: joint28 1
+    400402: joint29
+    400404: joint29 1
+    400406: joint3
+    400408: joint30
+    400410: joint30 1
+    400412: joint31
+    400414: joint31 1
+    400416: joint4
+    400418: joint5
+    400420: joint6
+    400422: joint7
+    400424: joint8
+    400426: leg_l__jnt_01
+    400428: leg_r__jnt_01
+    400430: pasted__arm_l_jnt
+    400432: pasted__arm_r_jnt
+    400434: pasted__chainl
+    400436: pasted__chainr
+    400438: pasted__hand_l_jnt_01
+    400440: pasted__hand_l_jnt_01 1
+    400442: pasted__hand_r_jnt_01
+    400444: pasted__joint1
+    400446: pasted__joint10
+    400448: pasted__joint10 1
+    400450: pasted__joint11
+    400452: pasted__joint11 1
+    400454: pasted__joint12
+    400456: pasted__joint12 1
+    400458: pasted__joint13
+    400460: pasted__joint13 1
+    400462: pasted__joint14
+    400464: pasted__joint17
+    400466: pasted__joint17 1
+    400468: pasted__joint18
+    400470: pasted__joint18 1
+    400472: pasted__joint19
+    400474: pasted__joint19 1
+    400476: pasted__joint2
+    400478: pasted__joint20
+    400480: pasted__joint20 1
+    400482: pasted__joint21
+    400484: pasted__joint21 1
+    400486: pasted__joint22
+    400488: pasted__joint22 1
+    400490: pasted__joint23
+    400492: pasted__joint23 1
+    400494: pasted__joint24
+    400496: pasted__joint24 1
+    400498: pasted__joint25
+    400500: pasted__joint25 1
+    400502: pasted__joint26
+    400504: pasted__joint26 1
+    400506: pasted__joint27
+    400508: pasted__joint27 1
+    400510: pasted__joint28
+    400512: pasted__joint28 1
+    400514: pasted__joint29
+    400516: pasted__joint29 1
+    400518: pasted__joint3
+    400520: pasted__joint30
+    400522: pasted__joint30 1
+    400524: pasted__joint31
+    400526: pasted__joint31 1
+    400528: pasted__joint4
+    400530: pasted__joint5
+    400532: pasted__joint6
+    400534: pasted__joint7
+    400536: pasted__joint8
+    400538: pasted__leg_l__jnt_01
+    400540: pasted__leg_r__jnt_01
+    400542: polySurface58
+    400544: polySurface59
+    400546: pSphere1
+    400548: pSphere2
+    400550: transform1
+    400552: transform2
+    400554: transform3
+    2300000: ghost_details2:polySurface17
+    2300002: ghost_details2:polySurface17 1
+    2300004: ghost_details2:polySurface18
+    2300006: ghost_details2:polySurface18 1
+    2300008: ghost_details2:polySurface19
+    2300010: ghost_details2:polySurface19 1
+    2300012: ghost_details2:polySurface20
+    2300014: ghost_details2:polySurface20 1
+    2300016: ghost_details2:polySurface21
+    2300018: ghost_details2:polySurface21 1
+    2300020: ghost_details2:polySurface22
+    2300022: ghost_details2:polySurface22 1
+    2300024: ghost_details2:polySurface23
+    2300026: ghost_details2:polySurface23 1
+    2300028: ghost_details2:polySurface24
+    2300030: ghost_details2:polySurface24 1
+    2300032: ghost_details2:polySurface25
+    2300034: ghost_details2:polySurface25 1
+    2300036: ghost_details2:polySurface26
+    2300038: ghost_details2:polySurface26 1
+    2300040: ghost_details2:polySurface27
+    2300042: ghost_details2:polySurface27 1
+    2300044: ghost_details2:polySurface28
+    2300046: ghost_details2:polySurface28 1
+    2300048: ghost_details2:polySurface29
+    2300050: ghost_details2:polySurface29 1
+    2300052: ghost_details2:polySurface30
+    2300054: ghost_details2:polySurface30 1
+    2300056: ghost_details2:polySurface31
+    2300058: ghost_details2:polySurface31 1
+    2300060: ghost_details2:polySurface32
+    2300062: ghost_details2:polySurface32 1
+    2300064: ghost_details2:polySurface33
+    2300066: ghost_details2:polySurface33 1
+    2300068: ghost_details2:polySurface34
+    2300070: ghost_details2:polySurface34 1
+    2300072: ghost_details2:polySurface35
+    2300074: ghost_details2:polySurface35 1
+    2300076: ghost_details2:polySurface36
+    2300078: ghost_details2:polySurface36 1
+    2300080: ghost_details2:polySurface37
+    2300082: ghost_details2:polySurface37 1
+    2300084: ghost_details2:polySurface38
+    2300086: ghost_details2:polySurface38 1
+    2300088: ghost_details2:polySurface39
+    2300090: ghost_details2:polySurface39 1
+    2300092: ghost_details2:polySurface40
+    2300094: ghost_details2:polySurface40 1
+    2300096: ghost_details2:polySurface41
+    2300098: ghost_details2:polySurface41 1
+    2300100: ghost_details2:polySurface42
+    2300102: ghost_details2:polySurface42 1
+    2300104: ghost_details2:polySurface43
+    2300106: ghost_details2:polySurface43 1
+    2300108: ghost_details2:polySurface44
+    2300110: ghost_details2:polySurface44 1
+    2300112: ghost_details2:polySurface45
+    2300114: ghost_details2:polySurface45 1
+    2300116: ghost_details2:polySurface46
+    2300118: ghost_details2:polySurface46 1
+    2300120: ghost_details2:polySurface47
+    2300122: ghost_details2:polySurface47 1
+    2300124: ghost_details2:polySurface48
+    2300126: ghost_details2:polySurface48 1
+    2300128: ghost_details2:polySurface49
+    2300130: ghost_details2:polySurface49 1
+    2300132: ghost_details2:polySurface50
+    2300134: ghost_details2:polySurface50 1
+    2300136: ghost_details2:polySurface51
+    2300138: ghost_details2:polySurface51 1
+    2300140: ghost_details2:polySurface52
+    2300142: ghost_details2:polySurface52 1
+    2300144: ghost_details2:polySurface53
+    2300146: ghost_details2:polySurface53 1
+    2300148: ghost_details2:polySurface54
+    2300150: ghost_details2:polySurface54 1
+    2300152: ghost_details2:polySurface9
+    2300154: ghost_details:polySurface17
+    2300156: ghost_details:polySurface17 1
+    2300158: ghost_details:polySurface18
+    2300160: ghost_details:polySurface18 1
+    2300162: ghost_details:polySurface19
+    2300164: ghost_details:polySurface19 1
+    2300166: ghost_details:polySurface20
+    2300168: ghost_details:polySurface20 1
+    2300170: ghost_details:polySurface21
+    2300172: ghost_details:polySurface21 1
+    2300174: ghost_details:polySurface22
+    2300176: ghost_details:polySurface22 1
+    2300178: ghost_details:polySurface23
+    2300180: ghost_details:polySurface23 1
+    2300182: ghost_details:polySurface24
+    2300184: ghost_details:polySurface24 1
+    2300186: ghost_details:polySurface25
+    2300188: ghost_details:polySurface25 1
+    2300190: ghost_details:polySurface26
+    2300192: ghost_details:polySurface26 1
+    2300194: ghost_details:polySurface27
+    2300196: ghost_details:polySurface27 1
+    2300198: ghost_details:polySurface28
+    2300200: ghost_details:polySurface28 1
+    2300202: ghost_details:polySurface29
+    2300204: ghost_details:polySurface29 1
+    2300206: ghost_details:polySurface30
+    2300208: ghost_details:polySurface30 1
+    2300210: ghost_details:polySurface31
+    2300212: ghost_details:polySurface31 1
+    2300214: ghost_details:polySurface32
+    2300216: ghost_details:polySurface32 1
+    2300218: ghost_details:polySurface33
+    2300220: ghost_details:polySurface33 1
+    2300222: ghost_details:polySurface34
+    2300224: ghost_details:polySurface34 1
+    2300226: ghost_details:polySurface35
+    2300228: ghost_details:polySurface35 1
+    2300230: ghost_details:polySurface36
+    2300232: ghost_details:polySurface36 1
+    2300234: ghost_details:polySurface37
+    2300236: ghost_details:polySurface37 1
+    2300238: ghost_details:polySurface38
+    2300240: ghost_details:polySurface38 1
+    2300242: ghost_details:polySurface39
+    2300244: ghost_details:polySurface39 1
+    2300246: ghost_details:polySurface40
+    2300248: ghost_details:polySurface40 1
+    2300250: ghost_details:polySurface41
+    2300252: ghost_details:polySurface41 1
+    2300254: ghost_details:polySurface42
+    2300256: ghost_details:polySurface42 1
+    2300258: ghost_details:polySurface43
+    2300260: ghost_details:polySurface43 1
+    2300262: ghost_details:polySurface44
+    2300264: ghost_details:polySurface44 1
+    2300266: ghost_details:polySurface45
+    2300268: ghost_details:polySurface45 1
+    2300270: ghost_details:polySurface46
+    2300272: ghost_details:polySurface46 1
+    2300274: ghost_details:polySurface47
+    2300276: ghost_details:polySurface47 1
+    2300278: ghost_details:polySurface48
+    2300280: ghost_details:polySurface48 1
+    2300282: ghost_details:polySurface49
+    2300284: ghost_details:polySurface49 1
+    2300286: ghost_details:polySurface50
+    2300288: ghost_details:polySurface50 1
+    2300290: ghost_details:polySurface51
+    2300292: ghost_details:polySurface51 1
+    2300294: ghost_details:polySurface52
+    2300296: ghost_details:polySurface52 1
+    2300298: ghost_details:polySurface53
+    2300300: ghost_details:polySurface53 1
+    2300302: ghost_details:polySurface54
+    2300304: ghost_details:polySurface54 1
+    2300306: ghost_details:polySurface9
+    3300000: ghost_details2:polySurface17
+    3300002: ghost_details2:polySurface17 1
+    3300004: ghost_details2:polySurface18
+    3300006: ghost_details2:polySurface18 1
+    3300008: ghost_details2:polySurface19
+    3300010: ghost_details2:polySurface19 1
+    3300012: ghost_details2:polySurface20
+    3300014: ghost_details2:polySurface20 1
+    3300016: ghost_details2:polySurface21
+    3300018: ghost_details2:polySurface21 1
+    3300020: ghost_details2:polySurface22
+    3300022: ghost_details2:polySurface22 1
+    3300024: ghost_details2:polySurface23
+    3300026: ghost_details2:polySurface23 1
+    3300028: ghost_details2:polySurface24
+    3300030: ghost_details2:polySurface24 1
+    3300032: ghost_details2:polySurface25
+    3300034: ghost_details2:polySurface25 1
+    3300036: ghost_details2:polySurface26
+    3300038: ghost_details2:polySurface26 1
+    3300040: ghost_details2:polySurface27
+    3300042: ghost_details2:polySurface27 1
+    3300044: ghost_details2:polySurface28
+    3300046: ghost_details2:polySurface28 1
+    3300048: ghost_details2:polySurface29
+    3300050: ghost_details2:polySurface29 1
+    3300052: ghost_details2:polySurface30
+    3300054: ghost_details2:polySurface30 1
+    3300056: ghost_details2:polySurface31
+    3300058: ghost_details2:polySurface31 1
+    3300060: ghost_details2:polySurface32
+    3300062: ghost_details2:polySurface32 1
+    3300064: ghost_details2:polySurface33
+    3300066: ghost_details2:polySurface33 1
+    3300068: ghost_details2:polySurface34
+    3300070: ghost_details2:polySurface34 1
+    3300072: ghost_details2:polySurface35
+    3300074: ghost_details2:polySurface35 1
+    3300076: ghost_details2:polySurface36
+    3300078: ghost_details2:polySurface36 1
+    3300080: ghost_details2:polySurface37
+    3300082: ghost_details2:polySurface37 1
+    3300084: ghost_details2:polySurface38
+    3300086: ghost_details2:polySurface38 1
+    3300088: ghost_details2:polySurface39
+    3300090: ghost_details2:polySurface39 1
+    3300092: ghost_details2:polySurface40
+    3300094: ghost_details2:polySurface40 1
+    3300096: ghost_details2:polySurface41
+    3300098: ghost_details2:polySurface41 1
+    3300100: ghost_details2:polySurface42
+    3300102: ghost_details2:polySurface42 1
+    3300104: ghost_details2:polySurface43
+    3300106: ghost_details2:polySurface43 1
+    3300108: ghost_details2:polySurface44
+    3300110: ghost_details2:polySurface44 1
+    3300112: ghost_details2:polySurface45
+    3300114: ghost_details2:polySurface45 1
+    3300116: ghost_details2:polySurface46
+    3300118: ghost_details2:polySurface46 1
+    3300120: ghost_details2:polySurface47
+    3300122: ghost_details2:polySurface47 1
+    3300124: ghost_details2:polySurface48
+    3300126: ghost_details2:polySurface48 1
+    3300128: ghost_details2:polySurface49
+    3300130: ghost_details2:polySurface49 1
+    3300132: ghost_details2:polySurface50
+    3300134: ghost_details2:polySurface50 1
+    3300136: ghost_details2:polySurface51
+    3300138: ghost_details2:polySurface51 1
+    3300140: ghost_details2:polySurface52
+    3300142: ghost_details2:polySurface52 1
+    3300144: ghost_details2:polySurface53
+    3300146: ghost_details2:polySurface53 1
+    3300148: ghost_details2:polySurface54
+    3300150: ghost_details2:polySurface54 1
+    3300152: ghost_details2:polySurface9
+    3300154: ghost_details:polySurface17
+    3300156: ghost_details:polySurface17 1
+    3300158: ghost_details:polySurface18
+    3300160: ghost_details:polySurface18 1
+    3300162: ghost_details:polySurface19
+    3300164: ghost_details:polySurface19 1
+    3300166: ghost_details:polySurface20
+    3300168: ghost_details:polySurface20 1
+    3300170: ghost_details:polySurface21
+    3300172: ghost_details:polySurface21 1
+    3300174: ghost_details:polySurface22
+    3300176: ghost_details:polySurface22 1
+    3300178: ghost_details:polySurface23
+    3300180: ghost_details:polySurface23 1
+    3300182: ghost_details:polySurface24
+    3300184: ghost_details:polySurface24 1
+    3300186: ghost_details:polySurface25
+    3300188: ghost_details:polySurface25 1
+    3300190: ghost_details:polySurface26
+    3300192: ghost_details:polySurface26 1
+    3300194: ghost_details:polySurface27
+    3300196: ghost_details:polySurface27 1
+    3300198: ghost_details:polySurface28
+    3300200: ghost_details:polySurface28 1
+    3300202: ghost_details:polySurface29
+    3300204: ghost_details:polySurface29 1
+    3300206: ghost_details:polySurface30
+    3300208: ghost_details:polySurface30 1
+    3300210: ghost_details:polySurface31
+    3300212: ghost_details:polySurface31 1
+    3300214: ghost_details:polySurface32
+    3300216: ghost_details:polySurface32 1
+    3300218: ghost_details:polySurface33
+    3300220: ghost_details:polySurface33 1
+    3300222: ghost_details:polySurface34
+    3300224: ghost_details:polySurface34 1
+    3300226: ghost_details:polySurface35
+    3300228: ghost_details:polySurface35 1
+    3300230: ghost_details:polySurface36
+    3300232: ghost_details:polySurface36 1
+    3300234: ghost_details:polySurface37
+    3300236: ghost_details:polySurface37 1
+    3300238: ghost_details:polySurface38
+    3300240: ghost_details:polySurface38 1
+    3300242: ghost_details:polySurface39
+    3300244: ghost_details:polySurface39 1
+    3300246: ghost_details:polySurface40
+    3300248: ghost_details:polySurface40 1
+    3300250: ghost_details:polySurface41
+    3300252: ghost_details:polySurface41 1
+    3300254: ghost_details:polySurface42
+    3300256: ghost_details:polySurface42 1
+    3300258: ghost_details:polySurface43
+    3300260: ghost_details:polySurface43 1
+    3300262: ghost_details:polySurface44
+    3300264: ghost_details:polySurface44 1
+    3300266: ghost_details:polySurface45
+    3300268: ghost_details:polySurface45 1
+    3300270: ghost_details:polySurface46
+    3300272: ghost_details:polySurface46 1
+    3300274: ghost_details:polySurface47
+    3300276: ghost_details:polySurface47 1
+    3300278: ghost_details:polySurface48
+    3300280: ghost_details:polySurface48 1
+    3300282: ghost_details:polySurface49
+    3300284: ghost_details:polySurface49 1
+    3300286: ghost_details:polySurface50
+    3300288: ghost_details:polySurface50 1
+    3300290: ghost_details:polySurface51
+    3300292: ghost_details:polySurface51 1
+    3300294: ghost_details:polySurface52
+    3300296: ghost_details:polySurface52 1
+    3300298: ghost_details:polySurface53
+    3300300: ghost_details:polySurface53 1
+    3300302: ghost_details:polySurface54
+    3300304: ghost_details:polySurface54 1
+    3300306: ghost_details:polySurface9
+    4300000: ghost_details:polySurface17
+    4300002: ghost_details:polySurface18
+    4300004: ghost_details:polySurface19
+    4300006: ghost_details:polySurface20
+    4300008: ghost_details:polySurface21
+    4300010: ghost_details:polySurface22
+    4300012: ghost_details:polySurface23
+    4300014: ghost_details:polySurface24
+    4300016: ghost_details:polySurface25
+    4300018: ghost_details:polySurface26
+    4300020: ghost_details:polySurface27
+    4300022: ghost_details:polySurface28
+    4300024: ghost_details:polySurface29
+    4300026: ghost_details:polySurface30
+    4300028: ghost_details:polySurface31
+    4300030: ghost_details:polySurface32
+    4300032: ghost_details:polySurface33
+    4300034: ghost_details:polySurface34
+    4300036: ghost_details:polySurface35
+    4300038: ghost_details:polySurface36
+    4300040: ghost_details:polySurface37
+    4300042: ghost_details:polySurface38
+    4300044: ghost_details:polySurface39
+    4300046: ghost_details:polySurface40
+    4300048: ghost_details:polySurface41
+    4300050: ghost_details:polySurface42
+    4300052: ghost_details:polySurface43
+    4300054: ghost_details:polySurface44
+    4300056: ghost_details:polySurface45
+    4300058: ghost_details:polySurface46
+    4300060: ghost_details:polySurface47
+    4300062: ghost_details:polySurface48
+    4300064: ghost_details:polySurface49
+    4300066: ghost_details:polySurface50
+    4300068: ghost_details:polySurface51
+    4300070: ghost_details:polySurface52
+    4300072: ghost_details:polySurface53
+    4300074: ghost_details:polySurface54
+    4300076: ghost_details:polySurface17
+    4300078: ghost_details:polySurface18
+    4300080: ghost_details:polySurface19
+    4300082: ghost_details:polySurface20
+    4300084: ghost_details:polySurface21
+    4300086: ghost_details:polySurface22
+    4300088: ghost_details:polySurface23
+    4300090: ghost_details:polySurface24
+    4300092: ghost_details:polySurface25
+    4300094: ghost_details:polySurface26
+    4300096: ghost_details:polySurface27
+    4300098: ghost_details:polySurface28
+    4300100: ghost_details:polySurface29
+    4300102: ghost_details:polySurface30
+    4300104: ghost_details:polySurface31
+    4300106: ghost_details:polySurface32
+    4300108: ghost_details:polySurface33
+    4300110: ghost_details:polySurface34
+    4300112: ghost_details:polySurface35
+    4300114: ghost_details:polySurface36
+    4300116: ghost_details:polySurface37
+    4300118: ghost_details:polySurface38
+    4300120: ghost_details:polySurface39
+    4300122: ghost_details:polySurface40
+    4300124: ghost_details:polySurface41
+    4300126: ghost_details:polySurface42
+    4300128: ghost_details:polySurface43
+    4300130: ghost_details:polySurface44
+    4300132: ghost_details:polySurface45
+    4300134: ghost_details:polySurface46
+    4300136: ghost_details:polySurface47
+    4300138: ghost_details:polySurface48
+    4300140: ghost_details:polySurface49
+    4300142: ghost_details:polySurface50
+    4300144: ghost_details:polySurface51
+    4300146: ghost_details:polySurface52
+    4300148: ghost_details:polySurface53
+    4300150: ghost_details:polySurface54
+    4300152: ghost_details:polySurface9
+    4300154: polySurface59
+    4300156: ghost_details2:polySurface17
+    4300158: ghost_details2:polySurface18
+    4300160: ghost_details2:polySurface19
+    4300162: ghost_details2:polySurface20
+    4300164: ghost_details2:polySurface21
+    4300166: ghost_details2:polySurface22
+    4300168: ghost_details2:polySurface23
+    4300170: ghost_details2:polySurface24
+    4300172: ghost_details2:polySurface25
+    4300174: ghost_details2:polySurface26
+    4300176: ghost_details2:polySurface27
+    4300178: ghost_details2:polySurface28
+    4300180: ghost_details2:polySurface29
+    4300182: ghost_details2:polySurface30
+    4300184: ghost_details2:polySurface31
+    4300186: ghost_details2:polySurface32
+    4300188: ghost_details2:polySurface33
+    4300190: ghost_details2:polySurface34
+    4300192: ghost_details2:polySurface35
+    4300194: ghost_details2:polySurface36
+    4300196: ghost_details2:polySurface37
+    4300198: ghost_details2:polySurface38
+    4300200: ghost_details2:polySurface39
+    4300202: ghost_details2:polySurface40
+    4300204: ghost_details2:polySurface41
+    4300206: ghost_details2:polySurface42
+    4300208: ghost_details2:polySurface43
+    4300210: ghost_details2:polySurface44
+    4300212: ghost_details2:polySurface45
+    4300214: ghost_details2:polySurface46
+    4300216: ghost_details2:polySurface47
+    4300218: ghost_details2:polySurface48
+    4300220: ghost_details2:polySurface49
+    4300222: ghost_details2:polySurface50
+    4300224: ghost_details2:polySurface51
+    4300226: ghost_details2:polySurface52
+    4300228: ghost_details2:polySurface53
+    4300230: ghost_details2:polySurface54
+    4300232: ghost_details2:polySurface17
+    4300234: ghost_details2:polySurface18
+    4300236: ghost_details2:polySurface19
+    4300238: ghost_details2:polySurface20
+    4300240: ghost_details2:polySurface21
+    4300242: ghost_details2:polySurface22
+    4300244: ghost_details2:polySurface23
+    4300246: ghost_details2:polySurface24
+    4300248: ghost_details2:polySurface25
+    4300250: ghost_details2:polySurface26
+    4300252: ghost_details2:polySurface27
+    4300254: ghost_details2:polySurface28
+    4300256: ghost_details2:polySurface29
+    4300258: ghost_details2:polySurface30
+    4300260: ghost_details2:polySurface31
+    4300262: ghost_details2:polySurface32
+    4300264: ghost_details2:polySurface33
+    4300266: ghost_details2:polySurface34
+    4300268: ghost_details2:polySurface35
+    4300270: ghost_details2:polySurface36
+    4300272: ghost_details2:polySurface37
+    4300274: ghost_details2:polySurface38
+    4300276: ghost_details2:polySurface39
+    4300278: ghost_details2:polySurface40
+    4300280: ghost_details2:polySurface41
+    4300282: ghost_details2:polySurface42
+    4300284: ghost_details2:polySurface43
+    4300286: ghost_details2:polySurface44
+    4300288: ghost_details2:polySurface45
+    4300290: ghost_details2:polySurface46
+    4300292: ghost_details2:polySurface47
+    4300294: ghost_details2:polySurface48
+    4300296: ghost_details2:polySurface49
+    4300298: ghost_details2:polySurface50
+    4300300: ghost_details2:polySurface51
+    4300302: ghost_details2:polySurface52
+    4300304: ghost_details2:polySurface53
+    4300306: ghost_details2:polySurface54
+    4300308: ghost_details2:polySurface9
+    7400000: ghost_50
+    9500000: //RootNode
+    13700000: polySurface59
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ghost_50
+      takeName: ghost_50
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__joint1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/ghost_details2:polySurface9
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface17
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface18
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface19
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface20
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface21
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface22
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface23
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface24
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface25
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface26
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface27
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface28
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface29
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface30
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface31
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface32
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface33
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface34
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface35
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface36
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface37
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface38
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface39
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface40
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface41
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface42
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface43
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface44
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface45
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface46
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface47
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface48
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface49
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface50
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface51
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface52
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface53
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__chainl/ghost_details2:polySurface54
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint17
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint17/pasted__joint18
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint17/pasted__joint18/pasted__joint19
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint20
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint20/pasted__joint21
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint20/pasted__joint21/pasted__joint22
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint23
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint23/pasted__joint24
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint23/pasted__joint24/pasted__joint25
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint26
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint26/pasted__joint27
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint26/pasted__joint27/pasted__joint28
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint29
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint29/pasted__joint30
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_l_jnt/pasted__joint12/pasted__joint13/pasted__hand_l_jnt_01/pasted__hand_r_jnt_01/pasted__joint29/pasted__joint30/pasted__joint31
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface17 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface18 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface19 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface20 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface21 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface22 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface23 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface24 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface25 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface26 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface27 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface28 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface29 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface30 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface31 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface32 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface33 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface34 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface35 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface36 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface37 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface38 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface39 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface40 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface41 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface42 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface43 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface44 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface45 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface46 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface47 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface48 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface49 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface50 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface51 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface52 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface53 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:polySurface54 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__chainr/ghost_details2:transform15
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint17
+          1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint17
+          1/pasted__joint18 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint17
+          1/pasted__joint18 1/pasted__joint19 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint20
+          1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint20
+          1/pasted__joint21 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint20
+          1/pasted__joint21 1/pasted__joint22 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint23
+          1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint23
+          1/pasted__joint24 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint23
+          1/pasted__joint24 1/pasted__joint25 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint26
+          1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint26
+          1/pasted__joint27 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint26
+          1/pasted__joint27 1/pasted__joint28 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint29
+          1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint29
+          1/pasted__joint30 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__arm_r_jnt/pasted__joint12
+          1/pasted__joint13 1/pasted__joint14/pasted__hand_l_jnt_01 1/pasted__joint29
+          1/pasted__joint30 1/pasted__joint31 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__joint5
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__joint5/pasted__joint6
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__joint5/pasted__joint6/pasted__joint7
+        weight: 1
+      - path: group1/pasted__joint1/pasted__joint2/pasted__joint3/pasted__joint4/pasted__joint5/pasted__joint6/pasted__joint7/pasted__joint8
+        weight: 1
+      - path: group1/pasted__joint1/pasted__leg_l__jnt_01
+        weight: 1
+      - path: group1/pasted__joint1/pasted__leg_l__jnt_01/pasted__joint10
+        weight: 1
+      - path: group1/pasted__joint1/pasted__leg_l__jnt_01/pasted__joint10/pasted__joint11
+        weight: 1
+      - path: group1/pasted__joint1/pasted__leg_r__jnt_01
+        weight: 1
+      - path: group1/pasted__joint1/pasted__leg_r__jnt_01/pasted__joint10 1
+        weight: 1
+      - path: group1/pasted__joint1/pasted__leg_r__jnt_01/pasted__joint10 1/pasted__joint11
+          1
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/ghost_details:polySurface9
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface17
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface18
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface19
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface20
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface21
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface22
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface23
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface24
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface25
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface26
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface27
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface28
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface30
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface31
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface32
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface33
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface34
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface35
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface36
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface38
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface39
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface40
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface41
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface42
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface43
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface44
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface45
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface46
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface47
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface48
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface49
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface50
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface51
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface52
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface53
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/chainl/ghost_details:polySurface54
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint17
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint17/joint18
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint20
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint20/joint21
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint20/joint21/joint22
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint23
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint23/joint24
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint23/joint24/joint25
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint26
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint26/joint27
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint26/joint27/joint28
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint29/joint30
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_l_jnt/joint12/joint13/hand_l_jnt_01/hand_r_jnt_01/joint29/joint30/joint31
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface17
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface18
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface19
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface20
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface21
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface22
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface23
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface24
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface25
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface26
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface27
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface28
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface29
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface30
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface31
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface32
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface33
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface34
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface35
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface36
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface37
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface38
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface39
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface40
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface41
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface42
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface43
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface44
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface45
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface46
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface47
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface48
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface49
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface50
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface51
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface52
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface53
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:polySurface54
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/chainr/ghost_details:transform15
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint17 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint17 1/joint18 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint17 1/joint18 1/joint19 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint20 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint20 1/joint21 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint20 1/joint21 1/joint22 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint23 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint23 1/joint24 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint23 1/joint24 1/joint25 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint26 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint26 1/joint27 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint26 1/joint27 1/joint28 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint29 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint29 1/joint30 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/arm_r_jnt/joint12 1/joint13 1/joint14/hand_l_jnt_01
+          1/joint29 1/joint30 1/joint31 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint1/leg_l__jnt_01
+        weight: 1
+      - path: joint1/leg_l__jnt_01/joint10
+        weight: 1
+      - path: joint1/leg_l__jnt_01/joint10/joint11
+        weight: 1
+      - path: joint1/leg_r__jnt_01
+        weight: 1
+      - path: joint1/leg_r__jnt_01/joint10 1
+        weight: 1
+      - path: joint1/leg_r__jnt_01/joint10 1/joint11 1
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface58/transform1
+        weight: 1
+      - path: polySurface59
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform2
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
