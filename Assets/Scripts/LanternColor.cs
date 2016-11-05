@@ -19,7 +19,7 @@ public class LanternColor : MonoBehaviour {
 	void Start () {
         sphere = gameObject.GetComponent<SphereCollider>();
         light = transform.Find("FirstPersonCharacter/Hand/Lantern/Light").GetComponent<Light>();
-        material = transform.Find("FirstPersonCharacter/Hand/Lantern/LanternModel").GetComponent<MeshRenderer>().material;
+        material = transform.Find("FirstPersonCharacter/Hand/Lantern/LanternModel").GetComponent<MeshRenderer>().materials[1];
         material.EnableKeyword("_EMISSION");
 
         GradientColorKey[] gck;
