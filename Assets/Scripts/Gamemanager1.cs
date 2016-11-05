@@ -102,12 +102,7 @@ public class Gamemanager1 : MonoBehaviour {
         GhostPositions = FindObjectsOfType(typeof(Transform)) as Transform[];
         Objs = FindObjectsOfType(typeof(GameObject)) as GameObject[];
         i = Objs.Length;
-        if (GhostCollider.tag == "Ghost")
-        { 
-            //UI show canvas game end or gameover
-            //gameover.enabled = true;
 
-        }
         //if(GhostPositions[i-1].transform == TrapPosition.transform)
         {
             //Ui Show canvas game win

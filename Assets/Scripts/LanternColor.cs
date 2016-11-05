@@ -13,6 +13,8 @@ public class LanternColor : MonoBehaviour {
     private SphereCollider sphere;
     private Gradient g;
 
+    private float closestDistance;
+
 	// Use this for initialization
 	void Start () {
         sphere = gameObject.GetComponent<SphereCollider>();
@@ -45,6 +47,11 @@ public class LanternColor : MonoBehaviour {
 	
 	}
 
+    void FixedUpdate()
+    {
+        closestDistance = Mathf.Infinity;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Ghost" && !other.isTrigger)
@@ -54,10 +61,14 @@ public class LanternColor : MonoBehaviour {
             float maxDist = sphere.radius;
             float dist = (other.transform.position - transform.position).magnitude;
 
-            float amount = dist / maxDist;
+            if (dist < closestDistance)
+            {
+                closestDistance = dist;
+                float amount = dist / maxDist;
 
-            material.SetColor("_EmissionColor", g.Evaluate(amount));
-            light.color = g.Evaluate(amount);
+                material.SetColor("_EmissionColor", g.Evaluate(amount));
+                light.color = g.Evaluate(amount);
+            }
         }
     }
 
@@ -68,10 +79,14 @@ public class LanternColor : MonoBehaviour {
             float maxDist = sphere.radius;
             float dist = (other.transform.position - transform.position).magnitude;
 
-            float amount = dist / maxDist;
+            if (dist < closestDistance)
+            {
+                closestDistance = dist;
+                float amount = dist / maxDist;
 
-            material.SetColor("_EmissionColor", g.Evaluate(amount));
-            light.color = g.Evaluate(amount);
+                material.SetColor("_EmissionColor", g.Evaluate(amount));
+                light.color = g.Evaluate(amount);
+            }
         }
     }
 
