@@ -27,13 +27,14 @@ public class Gamemanager1 : MonoBehaviour {
 
 
         can.enabled = false;
+
         //getComponent ui
         //getcomponent canvas
         //getcomponent inputmanager
         //getcomponent levelcreation
-       
 
-	}
+
+    }
 
     public void LevelCreationInfo()
     {
@@ -87,8 +88,8 @@ public class Gamemanager1 : MonoBehaviour {
 
         if (col.collider.tag == "Ghost")
         {
-            Debug.Log(can.ToString() + "colliosion");
             can.enabled = true;
+            gameObject.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_MouseLook.SetCursorLock(false);
         }  
         
 
