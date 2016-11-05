@@ -522,6 +522,7 @@ ModelImporter:
     4300152: ghost_details:polySurface9
     4300154: polySurface59
     9500000: //RootNode
+    11100000: //RootNode
     13700000: polySurface59
   materials:
     importMaterials: 1
@@ -537,7 +538,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
