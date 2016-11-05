@@ -20,12 +20,12 @@ public class Gamemanager1 : MonoBehaviour {
     public Collider GhostCollider;
     public int loader;
 
-   
+    public bool dead;
 
     // Use this for initialization
     void Start () {
 
-
+        dead = false;
         can.enabled = false;
 
         //getComponent ui
@@ -86,10 +86,12 @@ public class Gamemanager1 : MonoBehaviour {
     void OnCollisionEnter(Collision col)
     {
 
-        if (col.collider.tag == "Ghost")
+        if (col.collider.tag == "Ghost" && !dead)
         {
+            transform.Find("FirstPersonCharacter/Hand").GetComponent<AudioSource>().Play();
             can.enabled = true;
             gameObject.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().m_MouseLook.SetCursorLock(false);
+            dead = true;
         }  
         
 

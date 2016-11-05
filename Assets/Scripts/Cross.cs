@@ -9,13 +9,15 @@ public class Cross : MonoBehaviour {
     public Transform baseHeight;
 
     private List<GameObject> candles = new List<GameObject>();
+    private AudioSource audio;
+    public GameObject ghostPluff;
 
 	// Use this for initialization
 	void Start () {
         Debug.Log(candle);
         ghostCount = CountGhosts();
         SpawnCandles(ghostCount);
-
+        audio = gameObject.GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -27,11 +29,15 @@ public class Cross : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Ghost")
         {
+            audio.Play();
             Debug.Log("Ghost destroyed!");
             //Remove candle
             Destroy(coll.gameObject);
             GameObject.FindWithTag("Player").GetComponent<LanternColor>().removeGhost();
-            
+
+            GameObject pluff = Instantiate(ghostPluff);
+            pluff.transform.position = coll.transform.position;
+            Destroy(pluff, 2f);
 
             candles[ghostCount - 1].transform.Find("Point light").GetComponent<Light>().enabled = false;
             candles[ghostCount - 1].transform.Find("CandleParticles").GetComponent<ParticleSystem>().Stop();

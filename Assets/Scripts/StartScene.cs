@@ -12,7 +12,7 @@ public class StartScene : MonoBehaviour
     public void startScene()
     {
         Debug.Log("Scene tried to load");
-        Application.LoadLevel("Test");
+        Application.LoadLevel("Dungeon1(3)");
     }
 
     

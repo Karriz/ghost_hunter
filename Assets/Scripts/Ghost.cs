@@ -6,9 +6,11 @@ public class Ghost : MonoBehaviour {
     private string playingAnim = "idle";
     private GameObject attackAnim;
     private GameObject idleAnim;
+    private AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
+        audio = gameObject.GetComponent<AudioSource>();
         attackAnim = transform.Find("attack_anim").gameObject;
         idleAnim = transform.Find("ghost_Anim").gameObject;
 
@@ -29,6 +31,7 @@ public class Ghost : MonoBehaviour {
 
             if (playingAnim == "idle")
             {
+                audio.Play();
                 attackAnim.SetActive(true);
                 idleAnim.SetActive(false);
                 playingAnim = "attack";
