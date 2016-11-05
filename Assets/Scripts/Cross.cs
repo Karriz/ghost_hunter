@@ -6,7 +6,7 @@ public class Cross : MonoBehaviour {
     public GameObject candle;
     private int ghostCount;
 
-    private float baseHeight;
+    public Transform baseHeight;
 
     private List<GameObject> candles = new List<GameObject>();
 
@@ -14,7 +14,6 @@ public class Cross : MonoBehaviour {
 	void Start () {
         Debug.Log(candle);
         ghostCount = CountGhosts();
-        baseHeight = transform.position.y - GetComponent<MeshRenderer>().bounds.extents.y;
         SpawnCandles(ghostCount);
 
 	}
@@ -60,11 +59,11 @@ public class Cross : MonoBehaviour {
             GameObject newcandle = Instantiate(candle);
             newcandle.transform.parent = transform;
             
-            Vector3 rotationVector = Quaternion.AngleAxis(i*360f/amount, Vector3.up) * transform.right * 5f;
+            Vector3 rotationVector = Quaternion.AngleAxis(i*360f/amount, Vector3.up) * transform.right * 1.8f;
 
             newcandle.transform.localPosition = rotationVector;
 
-            newcandle.transform.position = new Vector3(newcandle.transform.position.x,baseHeight,newcandle.transform.position.z);
+            newcandle.transform.position = new Vector3(newcandle.transform.position.x,baseHeight.position.y,newcandle.transform.position.z);
 
             candles.Add(newcandle);
         }
